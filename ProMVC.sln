@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApplication", "FirstAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor", "Razor\Razor.csproj", "{799672A8-13AD-4ABB-8AC2-181C2E64AE12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTools", "EssentialTools\EssentialTools.csproj", "{BE88588A-9152-40F1-8E44-3EFB9BE3CFE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{799672A8-13AD-4ABB-8AC2-181C2E64AE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799672A8-13AD-4ABB-8AC2-181C2E64AE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799672A8-13AD-4ABB-8AC2-181C2E64AE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE88588A-9152-40F1-8E44-3EFB9BE3CFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE88588A-9152-40F1-8E44-3EFB9BE3CFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE88588A-9152-40F1-8E44-3EFB9BE3CFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE88588A-9152-40F1-8E44-3EFB9BE3CFE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
