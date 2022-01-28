@@ -1,4 +1,6 @@
-﻿using EssentialTools.Models;
+﻿using EssentialTools.Interfaces;
+using EssentialTools.Models;
+using Ninject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,10 +18,16 @@ namespace EssentialTools.Controllers
             new Product { Name="Corner flag", Category="Soccer", Price=34.95M},
         };
 
+        private IValueCalculator calc;
+
+        public  HomeController(IValueCalculator calcParam)
+        {
+            calc = calcParam;
+        }
+
 
         public ActionResult Index()
         {
-            LinqValueCalculator calc = new LinqValueCalculator();
             ShoppingCart cart = new ShoppingCart(calc) { Products = products };
 
             decimal totalValue = cart.CalculateProductTotal();
