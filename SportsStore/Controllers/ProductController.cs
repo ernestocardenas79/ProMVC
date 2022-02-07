@@ -28,9 +28,9 @@ namespace SportsStore.WebUI.Controllers
                 Products =
                     repository
                     .Products
-                    .Where(p => p.Category == null || p.Category == category)
+                    .Where(p => category == null || p.Category == category)
                     .OrderBy(p => p.ProductID)
-                    .Skip((page - 1) * PageSize)
+                    .Skip((page -1) * PageSize)
                     .Take(PageSize),
                 pagingInfo = new PagingInfo {
                     CurrentPage = page,

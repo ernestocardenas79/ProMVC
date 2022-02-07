@@ -13,7 +13,7 @@ using System.Web.Mvc;
 namespace SportsStore.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class HomeControllerTests
     {
         [TestMethod]
         public void Can_Paginate()
